@@ -26,7 +26,11 @@ module.exports = {
       unknownContextCritical: false
     },
     optimization: {
-      minimize: false
+      minimize: false,
+      splitChunks: {
+        minSize: 20000,
+        maxSize: 500000
+      }
     }
   }
 }
