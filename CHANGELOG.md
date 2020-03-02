@@ -1,28 +1,62 @@
-# 0.1.0 (2020-01-03)
+# 0.1.0 (2020-03-01)
 
 ### 🌟 新功能
 范围|描述|commitId
 --|--|--
- - | 添加部分页面示例 | [94fef2c](https://github.com/zct1989/vue-web-service/commit/94fef2c)
+ - | 修改chat-box样式 | [d8e3316](https://github.com/zct1989/vue-web-service/commit/d8e3316)
+ - | 完善聊天页面样式 | [1e6e522](https://github.com/zct1989/vue-web-service/commit/1e6e522)
+ - | 添加chat-box示例 | [7c4217c](https://github.com/zct1989/vue-web-service/commit/7c4217c)
+ - | 添加commitlint&change-log'支持 | [801c43c](https://github.com/zct1989/vue-web-service/commit/801c43c)
+ - | 添加Loading服务 | [1ba898b](https://github.com/zct1989/vue-web-service/commit/1ba898b)
+ - | 添加modal-service | [908bc36](https://github.com/zct1989/vue-web-service/commit/908bc36)
+ - | 添加webpack chunk split | [be61afb](https://github.com/zct1989/vue-web-service/commit/be61afb)
+ - | 添加侧边菜单多层级支持 | [14a4e3b](https://github.com/zct1989/vue-web-service/commit/14a4e3b)
+ - | 添加分页功能 | [ec1674f](https://github.com/zct1989/vue-web-service/commit/ec1674f)
+ - | 添加动态扩展功能 | [5d21832](https://github.com/zct1989/vue-web-service/commit/5d21832)
+ - | 添加图表示例 | [22af706](https://github.com/zct1989/vue-web-service/commit/22af706)
+ - | 添加字典多语言翻译支持&添加表单校验示例 | [b52ef11](https://github.com/zct1989/vue-web-service/commit/b52ef11)
+ - | 添加客户示例 | [b04f7bd](https://github.com/zct1989/vue-web-service/commit/b04f7bd)
+ - | 添加弹窗功能示例 | [d96afec](https://github.com/zct1989/vue-web-service/commit/d96afec)
+ - | 添加提交前代码校验 | [51b46ff](https://github.com/zct1989/vue-web-service/commit/51b46ff)
+ - | 添加提交前代码校验 | [2c0cba8](https://github.com/zct1989/vue-web-service/commit/2c0cba8)
+ - | 添加提交日志显示 | [71b646b](https://github.com/zct1989/vue-web-service/commit/71b646b)
+ - | 添加文档内容 | [0a14132](https://github.com/zct1989/vue-web-service/commit/0a14132)
  - | 添加日历示例&&添加登录模块 | [21665df](https://github.com/zct1989/vue-web-service/commit/21665df)
+ - | 添加日历详情页面 | [bf0e8c8](https://github.com/zct1989/vue-web-service/commit/bf0e8c8)
  - | 添加日志文档 | [0945ed9](https://github.com/zct1989/vue-web-service/commit/0945ed9)
  - | 添加示例模块 | [061b592](https://github.com/zct1989/vue-web-service/commit/061b592)
  - | 添加示例模块 | [510d3bb](https://github.com/zct1989/vue-web-service/commit/510d3bb)
  - | 添加示例页面 | [fe574ab](https://github.com/zct1989/vue-web-service/commit/fe574ab)
- - | 添加提交前代码校验 | [51b46ff](https://github.com/zct1989/vue-web-service/commit/51b46ff)
- - | 添加提交前代码校验 | [2c0cba8](https://github.com/zct1989/vue-web-service/commit/2c0cba8)
- - | 添加提交日志显示 | [71b646b](https://github.com/zct1989/vue-web-service/commit/71b646b)
- - | 添加图表示例 | [22af706](https://github.com/zct1989/vue-web-service/commit/22af706)
- - | 添加commitlint&change-log'支持 | [801c43c](https://github.com/zct1989/vue-web-service/commit/801c43c)
- - | 添加Loading服务 | [1ba898b](https://github.com/zct1989/vue-web-service/commit/1ba898b)
- - | 添加webpack chunk split | [be61afb](https://github.com/zct1989/vue-web-service/commit/be61afb)
+ - | 添加移动端显示支持 | [8b98752](https://github.com/zct1989/vue-web-service/commit/8b98752)
+ - | 添加网络通讯示例 | [88afb00](https://github.com/zct1989/vue-web-service/commit/88afb00)
+ - | 添加部分页面示例 | [94fef2c](https://github.com/zct1989/vue-web-service/commit/94fef2c)
+
+
+### 🎨 代码样式
+范围|描述|commitId
+--|--|--
+ - | remove console.log | [b524ccb](https://github.com/zct1989/vue-web-service/commit/b524ccb)
+ - | 修正代码格式 | [c93bef2](https://github.com/zct1989/vue-web-service/commit/c93bef2)
 
 
 ### 🐛 Bug 修复
 范围|描述|commitId
 --|--|--
+ - | 修改chat布局 | [9f01e89](https://github.com/zct1989/vue-web-service/commit/9f01e89)
+ - | 修改vue.config | [b6d157d](https://github.com/zct1989/vue-web-service/commit/b6d157d)
+ - | 修正chat-box大小 | [2fb68b7](https://github.com/zct1989/vue-web-service/commit/2fb68b7)
+ - | 修正chat-user-list 排序 | [b40737c](https://github.com/zct1989/vue-web-service/commit/b40737c)
+ - | 修正代码格式 | [1eda521](https://github.com/zct1989/vue-web-service/commit/1eda521)
  - | 修正守卫认证方式 | [8eaecfb](https://github.com/zct1989/vue-web-service/commit/8eaecfb)
+ - | 修正输入框拖动异常 | [725c32a](https://github.com/zct1989/vue-web-service/commit/725c32a)
  - | 展示去除分页服务 | [58d0ac6](https://github.com/zct1989/vue-web-service/commit/58d0ac6)
+ - | 添加unread显示 | [5453bd0](https://github.com/zct1989/vue-web-service/commit/5453bd0)
+ - | 添加付款方式示例 | [f0523d1](https://github.com/zct1989/vue-web-service/commit/f0523d1)
+ - | 添加客户信息 | [39e2074](https://github.com/zct1989/vue-web-service/commit/39e2074)
+ - | 添加弹窗示例 | [8c1618d](https://github.com/zct1989/vue-web-service/commit/8c1618d)
+ - | 添加打印标识 | [4c627a3](https://github.com/zct1989/vue-web-service/commit/4c627a3)
+ - | 添加模版选择按钮 | [8d10329](https://github.com/zct1989/vue-web-service/commit/8d10329)
+ - | 添加输出框最低高度 | [13fcfdf](https://github.com/zct1989/vue-web-service/commit/13fcfdf)
 
 
 范围|描述|commitId

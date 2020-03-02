@@ -1,17 +1,17 @@
 <template>
-  <section class="component order-detail">
-    <a-tabs defaultActiveKey="base">
-      <a-tab-pane :tab="$t('base')" key="base">
-        <OrderBaseDetail :detail="detail"></OrderBaseDetail>
-      </a-tab-pane>
-      <a-tab-pane :tab="$t('customer')" key="customer">
-        <OrderCustomerDetail :id="detail.id"></OrderCustomerDetail>
-      </a-tab-pane>
-      <a-tab-pane :tab="$t('product')" key="product">
-        <OrderProductDetail :id="detail.id"></OrderProductDetail>
-      </a-tab-pane>
-    </a-tabs>
-  </section>
+    <section class="component order-detail">
+        <a-tabs defaultActiveKey="base">
+            <a-tab-pane :tab="$t('base')" key="base">
+                <OrderBaseDetail :detail="detail"></OrderBaseDetail>
+            </a-tab-pane>
+            <a-tab-pane :tab="$t('customer')" key="customer">
+                <OrderCustomerDetail :id="detail.id"></OrderCustomerDetail>
+            </a-tab-pane>
+            <a-tab-pane :tab="$t('product')" key="product">
+                <OrderProductDetail :id="detail.id"></OrderProductDetail>
+            </a-tab-pane>
+        </a-tabs>
+    </section>
 </template>
 
 <script lang="ts">
@@ -20,15 +20,15 @@ import OrderBaseDetail from './order-base-detail.vue'
 import OrderCustomerDetail from './order-customer-detail.vue'
 import OrderProductDetail from './order-product-detail.vue'
 @Component({
-  components: {
-    OrderBaseDetail,
-    OrderCustomerDetail,
-    OrderProductDetail
-  }
+    components: {
+        OrderBaseDetail,
+        OrderCustomerDetail,
+        OrderProductDetail
+    }
 })
 export default class OrderDetail extends Vue {
-  @Prop()
-  detail: any
+    @Prop()
+    detail: any
 }
 </script>
 
