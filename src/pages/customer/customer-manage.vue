@@ -101,6 +101,7 @@
         </data-form>
         <a-card class="margin-y">
             <data-table
+                :stripe="true"
                 :data="data"
                 :page="pageService"
                 rowKey="customer_code"
@@ -137,6 +138,15 @@
                     key="credit"
                     align="right"
                 ></a-table-column>
+                <a-table-column
+                    :title="$t('columns.billing_currency')"
+                    dataIndex="billing_currency"
+                    key="billing_currency"
+                >
+                    <template slot-scope="currency">
+                        {{ currency | dict('currency') }}
+                    </template>
+                </a-table-column>
                 <a-table-column
                     :title="$t('columns.status')"
                     dataIndex="status"
@@ -405,7 +415,8 @@ export default class CustomerManage extends Vue {
       "available_balance":"Balance",
       "credit":"Credit",
       "status":"Status",
-      "action":"Action"
+      "action":"Action",
+      "billing_currency":"Billing Currency"
     },
     "form":{
        "status":"Status",
@@ -439,7 +450,8 @@ export default class CustomerManage extends Vue {
       "available_balance":"可用余额",
       "credit":"信用额度",
       "status":"状态",
-      "action":"操作"
+      "action":"操作",
+      "billing_currency":"账单币种"
     },
     "form":{
        "status":"状态",
